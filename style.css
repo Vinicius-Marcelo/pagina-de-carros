@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    max-width: 307px;
+    height: 500px;
+    padding: 48px 48px;
+}
+.sedans{
+    background: #E28625;
+    border-radius: 10px 0 0 10px;
+}
+.suvs{
+    background: #006971;
+}
+.luxury{
+    background: #004140;
+    border-radius: 0 10px 10px 0;
+}
+.img{
+    all: unset;
+    padding-bottom: 35px;
+}
+h2{
+    padding-bottom: 25px;
+    font-family: 'Big Shoulders Display', 'cursive';
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: #f2f2f2;
+}
+span, a{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 0.75;
+}
+span{
+    padding-bottom: 83px;
+    color: #fff;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 146px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+.sedans a{
+    color: #E28625;
+}
+.suvs{
+    color: #006971;
+}
+.luxury a{
+    color: #004140;
+}
